@@ -55,7 +55,7 @@ const displayOptions = () => {
 };
 
 //Word Generator 
-const generateWord= (optionValue) => {
+const generateWord = (optionValue) => {
     let optionsButtons = document.querySelectorAll(".options");
     //if option value matches the button intter text then highluhgt the button
     optionsButtons.forEach((button) => {
@@ -82,7 +82,6 @@ const initializer = () => {
     }
 
     displayOptions();
-
 };
 
 //New Game
